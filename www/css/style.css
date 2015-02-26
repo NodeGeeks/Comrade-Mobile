@@ -1,0 +1,184 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-MedCond.ttf);
+}
+body {
+    font-family: "HelveticaNeue" !important;
+}
+.comradeGradient, .tabs {
+    background-color: #339999;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#339999), to(#006666));
+    background: -webkit-radial-gradient(circle, #339999, #006666);
+    background: -moz-radial-gradient(circle, #339999, #006666);
+    background: -ms-radial-gradient(circle, #339999, #006666);
+}
+.bar {
+    background-color: #339999;
+    border:  none;
+}
+
+.bar h1 {
+    color: white;
+}
+
+.bar .button, .tabs i {
+    color: #F5F5F5;
+}
+.item-options {
+  width: 100% !important;
+}
+
+.col-33 {
+  width: 33.3333%;
+}
+
+.lrg-font.button-icon.icon:before, .lrg-font.icon, .lrg-font.icon:before{
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.xlrg-font.button-icon.icon:before{
+  font-size: 66px;
+  line-height: 66px;
+}
+
+
+.tiny-margin-top {
+  margin-top: 5px;
+}
+
+.sm-margin-top {
+  margin-top: 12px;
+}
+
+.med-margin-top {
+  margin-top: 20px;
+}
+
+.lrg-margin-top {
+  margin-top: 30px;
+}
+
+.xlrg-margin-top {
+  margin-top: 50px;
+}
+
+.sm-line-height {
+  line-height: 5px;
+}
+
+/* START Dashboard Custom Styles */
+
+.social-bubble-holder {
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid #808080;
+    position: relative;
+}
+
+.social-bubble {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.force-relative {
+    position: relative;
+}
+/* END Dashboard Custom Styles */
+
+
+
+.bar-search, .bar-addComrade {
+    height: auto;
+    margin-top: 88px;
+}
+
+.bar-addComrade {
+    height: 150px;
+}
+
+
+.event-day-radio input:checked ~ .radio-icon {
+    visibility: hidden;
+}
+
+.event-day-radio .col {
+    padding: 0px;
+}
+
+.main-logo img{
+    margin-top: 20px;
+    width: 80%;
+    max-width: 320px;
+
+}
+
+.social-login-bar {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.social-login-bar .each {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.social-login-bar i {
+    font-size: 40px;
+    color: white;
+    line-height: 45px;
+}
+
+.social-login-text {
+    color: white;
+    font-size: 22px;
+}
+
+.comrade-login-button, .comrade-signup-button {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border: none;
+}
+
+.comrade-input {
+    background: rgba(255, 255, 255, 0.1);
+    color: #2f4f4f;
+    border: none;
+    font-size: 19px;
+    height: 40px;
+    color: #2f4f4f;
+}
+
+.comrade-input input {
+    padding-right: 0px;
+}
+
+.text-white {
+    color: white;
+    font-size: 20px;
+}
+.text-white a {
+    color: white;
+    text-decoration: none;
+}
+
+.comradeStyle {
+    background-color: transparent;
+}
+
+.comradeStyle .card, .list-inset {
+    background-color: transparent;
+}
+
+.no-padding {
+    padding: 0;
+}

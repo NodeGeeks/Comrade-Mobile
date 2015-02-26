@@ -1,0 +1,70 @@
+<ion-view title="Events">
+    <ion-nav-bar class="bar-dark nav-title-slide-ios7">
+    </ion-nav-bar>
+    <ion-content class="has-header">
+        <div class="list row event-day-radio">
+
+            <label class="item item-radio col">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    8
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+
+            <label class="item item-radio col">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    9
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+
+            <label class="item item-radio col">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    10
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+
+            <label class="item item-radio col">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    11
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+
+            <label class="item item-radio col">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    12
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+
+            <label class="item item-radio col">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    13
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+
+            <label class="item item-radio col">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    14
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+
+        </div>
+        <ion-list>
+            <!--TODO create radio buttons that represent the days-->
+            <ion-item ng-repeat="event in events" type="item-text-wrap" href="/account/events/{{event.id}}">
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

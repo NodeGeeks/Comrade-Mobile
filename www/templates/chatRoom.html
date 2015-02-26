@@ -1,0 +1,18 @@
+<ion-view title="{{comrade.name}}">
+    <ion-nav-bar class="bar-dark nav-title-slide-ios7">
+        <ion-nav-back-button class="button-icon icon ion-chevron-left">
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content class="has-header">
+        <ion-list>
+            <ion-item class="item-avatar" ng-repeat="item in message.comments.data" type="item-text-wrap">
+                <img src="">
+                <h2></h2>
+                <p></p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-tabs class="tabs-dark tabs-icon-only">
+        <input type="text">
+    </ion-tabs>
+</ion-view>

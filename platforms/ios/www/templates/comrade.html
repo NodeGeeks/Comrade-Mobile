@@ -1,0 +1,34 @@
+<ion-view title="{{comrade.name}}">
+    <ion-nav-bar class="bar-dark nav-title-slide-ios7">
+        <ion-nav-back-button class="button-icon icon ion-chevron-left">
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content class="has-header">
+        <ion-list>
+            <div class="list card">
+
+                <div class="item item-avatar">
+                    <img src="{{comrade.thumbnail}}">
+                    <h2>{{comrade.name}}</h2>
+                    <p>{{comrade.relationship}}</p>
+                </div>
+
+                <div class="item tabs tabs-secondary tabs-icon-left">
+                    <a class="tab-item" href="#">
+                        <i class="icon ion-location"></i>
+                        Invite
+                    </a>
+                    <a class="tab-item" href="#">
+                        <i class="icon ion-pinpoint"></i>
+                        Find
+                    </a>
+                    <a class="tab-item" href="#">
+                        <i class="icon ion-ios7-compose"></i>
+                        Quick Message
+                    </a>
+                </div>
+
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>

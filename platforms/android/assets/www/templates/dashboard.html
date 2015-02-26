@@ -1,0 +1,114 @@
+
+<ion-view title="Dashboard">
+    <ion-nav-bar class="bar-dark nav-title-slide-ios7">
+        <button ng-click="openSettingsModal()" class="button button-icon icon ion-ios7-gear-outline pull-right"></button>
+    </ion-nav-bar>
+    <div class="bar bar-subheader">
+        <button ng-show="{{hasFacebook}}" ng-click="filterSocial('facebook')" class="button button-icon icon ion-social-facebook-outline"></button>
+        <button ng-show="{{hasGoogle}}" ng-click="filterSocial('google')" class="button button-icon icon ion-social-googleplus-outline"></button>
+        <button ng-show="{{hasTwitter}}" ng-click="filterSocial('twitter')" class="button button-icon icon ion-social-twitter-outline"></button>
+        <button ng-click="openLinkMoreModal()" class="button button-icon icon ion-ios7-plus-empty"></button>
+    </div>
+    <div class="has-subheader social-bubble-holder">
+        <img class="social-bubble" src="{{UserData.comradePic}}" ng-show="{{isComrade}}" ng-click="profilePhotoAction()" >
+        <img class="social-bubble" src="{{UserData.facebookPic}}" ng-show="{{hasFacebook}}" >
+        <img class="social-bubble" src="{{UserData.googlePic}}" ng-show="{{hasGoogle}}" >
+        <img class="social-bubble" src="{{UserData.twitterPic}}" ng-show="{{hasTwitter}}" >
+    </div>
+    <ion-content scroll="false" class="has-subheader force-relative">
+
+        <ion-scroll direction="y" on-refresh="refreshNotificationsList()" >
+            <ion-list>
+            </ion-list>
+        </ion-scroll>
+    </ion-content>
+</ion-view>
+
+<script id="settings.html" type="text/ng-template">
+    <div class="modal">
+        <ion-header-bar>
+            <button ng-click="closeSettingsModal()" class="button button-clear pull-right">Done</button>
+            <h1 class="title">Settings</h1>
+
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <a class="item item-icon-left" href="#">
+                    <i class="icon ion-ios7-person-outline"></i>
+                    Account Info
+                </a>
+                <li class="item item-icon-left item-toggle">
+                    <i class="icon ion-ios7-alarm-outline"></i>
+                    Notifications
+                    <label class="toggle toggle-assertive">
+                        <input type="checkbox">
+                        <div class="track">
+                            <div class="handle"></div>
+                        </div>
+                    </label>
+                </li>
+                <a class="item item-icon-left" ng-click="openSocialAccountsModal()">
+                    <i class="icon ion-ios7-world-outline"></i>
+                    Social Accounts
+                </a>
+                <a class="item item-icon-left" ng-click="logout()">
+                    <i class="icon ion-log-out"></i>
+                    Logout
+                </a>
+            </ion-list>
+        </ion-content>
+    </div>
+</script>
+
+<script id="socialaccounts.html" type="text/ng-template">
+    <div class="modal">
+        <ion-header-bar>
+            <button ng-click="closeSocialAccountsModal()" class="button button-clear icon ion-chevron-left"></button>
+            <h1 class="title">Social Accounts</h1>
+
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <ion-item ng-show="{{hasFacebook}}" class="item item-icon-right" ng-click="linkSocialAccount('facebook')">
+                    Facebook
+                    <i class="icon ion-social-facebook"></i>
+                </ion-item>
+                <ion-item ng-show="{{hasGoogle}}" class="item item-icon-right" ng-click="linkSocialAccount('google')">
+                    Google+
+                    <i class="icon ion-social-googleplus"></i>
+                </ion-item>
+                <ion-item ng-show="{{hasTwitter}}" class="item item-icon-right" ng-click="toggleSocialAccount('twitter')">
+                    Twitter
+                    <i class="icon ion-social-twitter"></i>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </div>
+</script>
+
+<script id="linkanothersocialaccount.html" type="text/ng-template">
+    <div class="modal">
+        <ion-header-bar>
+            <button ng-click="closeLinkMoreModal()" class="button button-clear icon ion-chevron-left"></button>
+            <h1 class="title">Add More Accounts</h1>
+
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <ion-item ng-hide="{{hasFacebook}}" class="item item-icon-right" ng-click="linkSocialAccount('facebook')">
+                    Facebook
+                    <i class="icon ion-social-facebook"></i>
+                </ion-item>
+                <ion-item ng-hide="{{hasGoogle}}" class="item item-icon-right" ng-click="linkSocialAccount('google')">
+                    Google+
+                    <i class="icon ion-social-googleplus"></i>
+                </ion-item>
+                <ion-item ng-hide="{{hasTwitter}}" class="item item-icon-right" ng-click="linkSocialAccount('twitter')">
+                    Twitter
+                    <i class="icon ion-social-twitter"></i>
+                </ion-item>
+
+            </ion-list>
+        </ion-content>
+    </div>
+</script>

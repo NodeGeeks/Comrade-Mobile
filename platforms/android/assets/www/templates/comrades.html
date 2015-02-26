@@ -1,0 +1,42 @@
+<ion-view title="Comrades">
+    <ion-nav-bar class="bar-dark nav-title-slide-ios7">
+    </ion-nav-bar>
+    <div class="bar bar-subheader">
+        <button ng-show="{{hasFacebook}}" ng-click="filterSocial('facebook')" class="button button-icon icon ion-social-facebook-outline"></button>
+        <button ng-show="{{hasGoogle}}" ng-click="filterSocial('google')" class="button button-icon icon ion-social-googleplus-outline"></button>
+        <button ng-show="{{hasTwitter}}" ng-click="filterSocial('twitter')" class="button button-icon icon ion-social-twitter-outline"></button>
+        <button ng-click="search = !search" class="button button-icon icon ion-ios7-search"></button>
+    </div>
+    <div ng-show="search" class="bar-search" data-ng-animate="'fade'">
+        <label class="item item-input">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input type="text" placeholder="Search" ng-model="searchText">
+        </label>
+    </div>
+    <ion-content class="has-subheader">
+
+        <ion-list can-swipe="true">
+            <ion-item class="item-avatar" ng-repeat="comrade in comrades | orderBy:predicate | filter:searchText " type="item-text-wrap" ui-sref="loggedIn.comrade({id:{{comrade.id}}})">
+                <img src="{{comrade.thumbnail}}">
+                <h2>{{comrade.name}}</h2>
+                <i class="icon pull-right ion-social-{{comrade.provider}}"></i>
+
+                <!--
+                    Diplayed after swipe/reveal
+                -->
+                <ion-option-button ng-show="isComrade({{comrade.id}})" class="button-info sm-line-height col-33" ui-sref="loggedIn.chatRoom({id:{{comrade.id}}})">
+                    <i class="icon lrg-font ion-ios7-chatbubble-outline"></i><br>
+                    Chat
+                </ion-option-button>
+                <ion-option-button class="button-info sm-line-height col-33" ng-click="">
+                    <i class="icon lrg-font ion-ios7-location-outline"></i><br>
+                    Invite
+                </ion-option-button>
+                <ion-option-button class="button-info sm-line-height col-33" ng-click="">
+                    <i class="icon lrg-font ion-pinpoint "></i><br>
+                    Find
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

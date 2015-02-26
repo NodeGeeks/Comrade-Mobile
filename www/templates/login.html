@@ -1,0 +1,30 @@
+<ion-nav-bar class="bar-dark nav-title-slide-ios7">
+    <ion-nav-back-button class="button-icon icon ion-chevron-left">
+    </ion-nav-back-button>
+</ion-nav-bar>
+
+<ion-view title="Login">
+    <ion-content class="has-header padding">
+        <div class="row text-center">
+            <div class="col"><a class="button h1 button-icon icon ion-location main-logo"></a></div>
+        </div>
+        <form name="loginForm" ng-submit="login(loginData)" novalidate>
+            <div class="list list-inset lrg-margin-top">
+                <label class="item item-input sm-margin-top">
+                    <input type="text" placeholder="email or username" name="email" ng-model="loginData.email">
+                </label>
+                <label class="item item-input sm-margin-top">
+                    <input type="text" placeholder="password" name="password" ng-model="loginData.password">
+                </label>
+            </div>
+            <button type="submit" class="button button-block button-positive sm-margin-top">login</button>
+        </form>
+        <div class="row">
+            <div class="col text-left"><input type="checkbox">remember me</div>
+            <div class="col text-right"><a ui-sref="signup">signup</a></div>
+        </div>
+        <div class="row">
+            <div class="col text-right"><a >forgot password</a></div>
+        </div>
+    </ion-content>
+</ion-view>

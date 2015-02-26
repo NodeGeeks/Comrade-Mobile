@@ -1,0 +1,85 @@
+/* Empty. Add your own CSS if you like */
+
+.item-options {
+    width: 100% !important;
+}
+
+.col-33 {
+    width: 33.3333%;
+}
+.main-logo.button-icon.icon:before {
+    font-size: 144px;
+    line-height: 144px;
+}
+
+.lrg-font.button-icon.icon:before, .lrg-font.icon, .lrg-font.icon:before{
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.xlrg-font.button-icon.icon:before{
+    font-size: 66px;
+    line-height: 66px;
+}
+
+
+.tiny-margin-top {
+    margin-top: 5px;
+}
+
+.sm-margin-top {
+    margin-top: 12px;
+}
+
+.med-margin-top {
+    margin-top: 20px;
+}
+
+.lrg-margin-top {
+    margin-top: 30px;
+}
+
+.xlrg-margin-top {
+    margin-top: 50px;
+}
+
+.sm-line-height {
+    line-height: 5px;   
+}
+
+/* START Dashboard Custom Styles */
+
+.social-bubble-holder {
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid #808080;
+    position: relative;
+}
+
+.social-bubble {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.force-relative {
+    position: relative;
+}
+/* END Dashboard Custom Styles */
+
+.bar-search {
+    height: 50px;
+}
+
+.bar-search {
+    margin-top: 88px;
+}
+
+.event-day-radio input:checked ~ .radio-icon {
+    visibility: hidden;
+}
+
+.event-day-radio .col {
+    padding: 0px;
+}

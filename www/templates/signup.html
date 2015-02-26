@@ -1,0 +1,43 @@
+<ion-nav-bar class="bar nav-title-slide-ios7">
+    <ion-nav-back-button class="button-icon icon ion-chevron-left">
+    </ion-nav-back-button>
+</ion-nav-bar>
+
+<ion-view class="comradeStyle comradeGradient" title="Signup">
+  <ion-content class="has-header padding">
+      <div ng-messages="signupForm.email.$error" ng-messages-include="my-custom-messages">
+
+          <!-- this is a brand new message and will appear last in the prioritization -->
+          <div ng-message="email">Your email address is invalid</div>
+      </div>
+      <form name="signupForm" ng-submit="signup(signupData)">
+
+          <div class="row no-padding">
+              <label class="item col item-input sm-margin-top comrade-input">
+                    <input class="text-center" type="text" placeholder="First Name" name="firstName" ng-model="signupData.firstName">
+              </label>
+              <label class="item col item-input sm-margin-top comrade-input">
+                    <input class="text-center" type="text" placeholder="Last Name" name="lastName" ng-model="signupData.lastName">
+              </label>
+          </div>
+          <label class="item item-input sm-margin-top comrade-input">
+                <input class="text-center" type="email" placeholder="email" name="email" ng-model="signupData.email" minlength="7">
+          </label>
+          <label class="item item-input sm-margin-top comrade-input">
+                <input class="text-center" type="text" placeholder="username" name="username" ng-model="signupData.username">
+
+          </label>
+          <label class="item item-input sm-margin-top comrade-input">
+                <input class="text-center" type="password" placeholder="password" name="password" ng-model="signupData.password">
+          </label>
+          <button type="submit" class="button button-block comrade-signup-button sm-margin-top">signup</button>
+
+      </form>
+  </ion-content>
+</ion-view>
+
+<script type="text/ng-template" id="my-custom-messages">
+    <div ng-message="required">This field is required</div>
+    <div ng-message="minlength">This field is too short</div>
+</script>
+

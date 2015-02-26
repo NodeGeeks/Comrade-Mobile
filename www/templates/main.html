@@ -1,0 +1,41 @@
+<ion-content class="no-padding comradeGradient" scroll="false">
+    <div class="row text-center">
+      <div class="col main-logo"><img src="../img/logo.png"> </img> </div>
+    </div>
+    <form name="loginForm" ng-submit="login(loginData)">
+        <div class="list padding">
+            <label class="item item-input sm-margin-top comrade-input">
+                <input class="text-center" type="text" placeholder="email or username" name="email" ng-model="loginData.email">
+            </label>
+            <label class="item item-input sm-margin-top comrade-input">
+                <input class="text-center" type="password" placeholder="password" name="password" ng-model="loginData.password">
+            </label>
+            <button type="submit" class="button button-block comrade-login-button">
+                Login
+            </button>
+        </div>
+
+
+        <div class="row">
+            <div class="col text-left text-white"><a ng-click="">forgot password</a></div>
+            <div class="col text-right text-white"><a ui-sref="signup">signup</a></div>
+        </div>
+    </form>
+
+
+    <div class="social-login-bar">
+        <h2 class="social-login-text text-center">login using</h2>
+        <div class="row row-center text-center auto-width">
+            <div ng-click="socialLogin('facebook')" class="each">
+                <i class="icon ion-social-facebook-outline col-33 center-fb"></i>
+            </div>
+            <div ng-click="socialLogin('twitter')" class="each">
+                <i class="icon ion-social-twitter-outline col-33"></i>
+            </div>
+            <div ng-click="socialLogin('google')" class="each">
+                <i class="icon ion-social-googleplus-outline col-33"></i>
+            </div>
+        </div>
+
+    </div>
+</ion-content>

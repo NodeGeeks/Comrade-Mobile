@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ngstorage',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.13
+3 info using node@v0.10.26
+4 verbose cache add [ 'ngstorage', null ]
+5 verbose cache add name=undefined spec="ngstorage" args=["ngstorage",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ngstorage',
+6 verbose parsed url   path: 'ngstorage',
+6 verbose parsed url   href: 'ngstorage' }
+7 silly lockFile 11dd4b0d-ngstorage ngstorage
+8 verbose lock ngstorage /Users/aaronrussell/.npm/11dd4b0d-ngstorage.lock
+9 silly lockFile 11dd4b0d-ngstorage ngstorage
+10 silly lockFile 11dd4b0d-ngstorage ngstorage
+11 verbose addNamed [ 'ngstorage', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 0ed9b154-ngstorage ngstorage@
+14 verbose lock ngstorage@ /Users/aaronrussell/.npm/0ed9b154-ngstorage.lock
+15 silly addNameRange { name: 'ngstorage', range: '*', hasData: false }
+16 silly lockFile 0ed9b154-ngstorage ngstorage@
+17 silly lockFile 0ed9b154-ngstorage ngstorage@
+18 error 404 404 Not Found: ngstorage
+18 error 404
+18 error 404 'ngstorage' is not in the npm registry.
+18 error 404 You should bug the author to publish it
+18 error 404
+18 error 404 Note that you can also install from a
+18 error 404 tarball, folder, or http url, or git url.
+19 error System Darwin 13.2.0
+20 error command "node" "/usr/local/bin/npm" "install" "-g" "ngstorage" "--save"
+21 error cwd /Users/aaronrussell/Desktop/Projects/Comrade/client
+22 error node -v v0.10.26
+23 error npm -v 1.4.13
+24 error code E404
+25 verbose exit [ 1, true ]
