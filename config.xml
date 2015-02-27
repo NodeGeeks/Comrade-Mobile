@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.teknologenie.comrade" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.nodegeeks.comrade" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Comrade</name>
     <description>
         Bring all of your social media messages, events and contact all onto one united place. Easily find, invite set events and even live chat with any friend on any of your social media accounts from one app.
     </description>
     <author email="aaron@teknologenie.com" href="http://comradeapp.com/">
-        TeknoloGenie
+        NodeGeeks
     </author>
     <content src="index.html" />
     <access origin="*" />

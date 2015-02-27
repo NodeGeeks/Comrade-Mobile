@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "nodegeeks-icons";
+  src:url("../fonts/NodeGeeks-Icons/nodegeeks-icons.eot");
+  src:url("../fonts/NodeGeeks-Icons/nodegeeks-icons.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NodeGeeks-Icons/nodegeeks-icons.woff") format("woff"),
+    url("../fonts/NodeGeeks-Icons/nodegeeks-icons.ttf") format("truetype"),
+    url("../fonts/NodeGeeks-Icons/nodegeeks-icons.svg#nodegeeks-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "nodegeeks-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ng-icon-"]:before,
+[class*=" ng-icon-"]:before {
+  font-family: "nodegeeks-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ng-icon-addfriend-alt:before {
+  content: "c";
+}
+.ng-icon-addfriend:before {
+  content: "d";
+}
+.ng-icon-anonymous:before {
+  content: "e";
+}
+.ng-icon-anonymous-alt:before {
+  content: "f";
+}
+.ng-icon-calendar-alt:before {
+  content: "a";
+}
+.ng-icon-calendar:before {
+  content: "b";
+}
+.ng-icon-coffee-alt:before {
+  content: "g";
+}
+.ng-icon-coffee:before {
+  content: "h";
+}
+.ng-icon-dashboard-alt:before {
+  content: "i";
+}
+.ng-icon-dashboard:before {
+  content: "j";
+}
+.ng-icon-social-facebook-alt:before {
+  content: "k";
+}
+.ng-icon-social-facebook:before {
+  content: "l";
+}
+.ng-icon-food-alt:before {
+  content: "m";
+}
+.ng-icon-home-alt:before {
+  content: "n";
+}
+.ng-icon-home:before {
+  content: "o";
+}
+.ng-icon-group:before {
+  content: "p";
+}
+.ng-icon-google-alt:before {
+  content: "r";
+}
+.ng-icon-google:before {
+  content: "s";
+}
+.ng-icon-github:before {
+  content: "t";
+}
+.ng-icon-github-alt:before {
+  content: "u";
+}
+.ng-icon-gaming:before {
+  content: "v";
+}
+.ng-icon-gaming-alt:before {
+  content: "w";
+}
+.ng-icon-foursquare:before {
+  content: "x";
+}
+.ng-icon-foursquare-alt:before {
+  content: "y";
+}
+.ng-icon-food:before {
+  content: "z";
+}
+.ng-icon-icecream:before {
+  content: "A";
+}
+.ng-icon-icecream-alt:before {
+  content: "B";
+}
+.ng-icon-social-instagram-alt:before {
+  content: "C";
+}
+.ng-icon-socail-instagram:before {
+  content: "D";
+}
+.ng-icon-left-alt:before {
+  content: "E";
+}
+.ng-icon-left:before {
+  content: "F";
+}
+.ng-icon-lightning-bolt:before {
+  content: "G";
+}
+.ng-icon-lightning-bolt-alt:before {
+  content: "H";
+}
+.ng-icon-socail-linkedin-alt:before {
+  content: "I";
+}
+.ng-icon-socail-linkedin:before {
+  content: "J";
+}
+.ng-icon-locator-alt:before {
+  content: "K";
+}
+.ng-icon-locator:before {
+  content: "L";
+}
+.ng-icon-comrade-logo:before {
+  content: "M";
+}
+.ng-icon-phone-alt:before {
+  content: "N";
+}
+.ng-icon-movies:before {
+  content: "O";
+}
+.ng-icon-movies-alt:before {
+  content: "P";
+}
+.ng-icon-minus-alt:before {
+  content: "Q";
+}
+.ng-icon-minus:before {
+  content: "R";
+}
+.ng-icon-messaging-alt:before {
+  content: "S";
+}
+.ng-icon-messaging:before {
+  content: "T";
+}
+.ng-icon-map-alt:before {
+  content: "U";
+}
+.ng-icon-map:before {
+  content: "V";
+}
+.ng-icon-man:before {
+  content: "W";
+}
+.ng-icon-man-alt:before {
+  content: "X";
+}
+.ng-icon-mail:before {
+  content: "Y";
+}
+.ng-icon-mail-alt:before {
+  content: "Z";
+}
+.ng-icon-phone:before {
+  content: "0";
+}
+.ng-icon-park:before {
+  content: "1";
+}
+.ng-icon-park-alt:before {
+  content: "2";
+}
+.ng-icon-playstation-logo:before {
+  content: "3";
+}
+.ng-icon-playstation-logo-alt:before {
+  content: "4";
+}
+.ng-icon-plus-alt:before {
+  content: "5";
+}
+.ng-icon-plus:before {
+  content: "6";
+}
+.ng-icon-right:before {
+  content: "7";
+}
+.ng-icon-right-alt:before {
+  content: "8";
+}
+.ng-icon-search-alt:before {
+  content: "9";
+}
+.ng-icon-search:before {
+  content: "!";
+}
+.ng-icon-setting-alt:before {
+  content: "\"";
+}
+.ng-icon-windows:before {
+  content: "#";
+}
+.ng-icon-setting:before {
+  content: "$";
+}
+.ng-icon-women:before {
+  content: "%";
+}
+.ng-icon-windows-alt:before {
+  content: "&";
+}
+.ng-icon-warning:before {
+  content: "'";
+}
+.ng-icon-warning-alt:before {
+  content: "(";
+}
+.ng-icon-social-twitter:before {
+  content: ")";
+}
+.ng-icon-socail-twitter-alt:before {
+  content: "*";
+}
+.ng-icon-trash:before {
+  content: "+";
+}
+.ng-icon-trash-alt:before {
+  content: ",";
+}
+.ng-icon-talkbubble:before {
+  content: "-";
+}
+.ng-icon-talkbubble-alt:before {
+  content: ".";
+}
+.ng-icon-skype:before {
+  content: "/";
+}
+.ng-icon-skype-alt:before {
+  content: ":";
+}
+.ng-icon-women-alt:before {
+  content: ";";
+}
+.ng-icon-wordpress-alt:before {
+  content: "<";
+}
+.ng-icon-wordpress:before {
+  content: "=";
+}
+.ng-icon-xbox-logo-alt:before {
+  content: ">";
+}
+.ng-icon-xbox-logo:before {
+  content: "?";
+}
+.ng-icon-game-controller-alt:before {
+  content: "@";
+}
+.ng-icon-game-controller:before {
+  content: "[";
+}

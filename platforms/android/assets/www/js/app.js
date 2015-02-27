@@ -1,4 +1,4 @@
-angular.module('comrade', ['ionic', 'ngAnimate', 'comrade.controllers', 'comrade.services', 'ngCordova', 'ngStorage'])
+angular.module('comrade', ['ionic', 'comrade.controllers', 'comrade.services', 'ngCordova', 'ngStorage', 'ngMessages', 'growlNotifications'])
 
 .run(function($ionicPlatform, $cordovaStatusbar) {
 
@@ -6,10 +6,10 @@ angular.module('comrade', ['ionic', 'ngAnimate', 'comrade.controllers', 'comrade
     if(window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
-
-      if(window.StatusBar) {
-            StatusBar.styleDefault();
-      }
+    if ($ionicPlatform.isIOS()) {
+      var isVisible = $cordovaStatusbar.isVisible();
+      if (isVisible) $cordovaStatusbar.styleColor('cyan');
+    }
   });
 })
 

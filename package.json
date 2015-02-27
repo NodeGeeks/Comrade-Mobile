@@ -1,7 +1,7 @@
 {
-  "name": "ionic-project",
-  "version": "1.0.0",
-  "description": "An Ionic project",
+  "name": "comrade",
+  "version": "0.0.1",
+  "description": "Comrade unites all of your social media, taking you out of the social media trap while keeping you in touch with your family and friends.",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^0.7.1",

@@ -1,17 +1,27 @@
 <ion-view title="Comrades">
-    <ion-nav-bar class="bar-dark nav-title-slide-ios7">
+    <ion-nav-bar class="bar comradeGradient nav-title-slide-ios7">
     </ion-nav-bar>
-    <div class="bar bar-subheader">
-        <button ng-show="{{hasFacebook}}" ng-click="filterSocial('facebook')" class="button button-icon icon ion-social-facebook-outline"></button>
-        <button ng-show="{{hasGoogle}}" ng-click="filterSocial('google')" class="button button-icon icon ion-social-googleplus-outline"></button>
-        <button ng-show="{{hasTwitter}}" ng-click="filterSocial('twitter')" class="button button-icon icon ion-social-twitter-outline"></button>
+    <div class="bar comradeGradient bar-subheader">
         <button ng-click="search = !search" class="button button-icon icon ion-ios7-search"></button>
+        <button ng-click="addComrade = !addComrade" class="pull-right button button-icon icon ion-ios7-personadd-outline"></button>
     </div>
-    <div ng-show="search" class="bar-search" data-ng-animate="'fade'">
+    <div ng-show="search" class="bar-search" data-ng-animate="fade">
         <label class="item item-input">
-            <i class="icon ion-search placeholder-icon"></i>
+            <i class="icon ion-ios7-search placeholder-icon"></i>
             <input type="text" placeholder="Search" ng-model="searchText">
+
         </label>
+    </div>
+    <div ng-show="addComrade" class="bar-addComrade" data-ng-animate="fade">
+        <form name="addComradeForm" ng-submit="sendComradesRequest(addComrade)">
+            <label class="item item-input">
+                <i class="icon ion-ios7-personadd placeholder-icon"></i>
+                <input type="text" placeholder="username, email or phone #" ng-model="val">
+                <button type="submit" class="button button-clear">
+                    add
+                </button>
+            </label>
+        </form>
     </div>
     <ion-content class="has-subheader">
 

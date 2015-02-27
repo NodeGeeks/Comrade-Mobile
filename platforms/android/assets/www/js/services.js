@@ -27,6 +27,7 @@ angular.module('comrade.services', [])
     return {
         all: function() {
           comradess = angular.fromJson(window.localStorage['comrades']);
+
           return comradess;
         },
         get: function(id) {
@@ -117,23 +118,19 @@ angular.module('comrade.services', [])
     }
 })
 
-.factory('SocialAccounts', function () {
+.factory('SocialAccounts', function ($localStorage) {
     return {
 
         setSocialProfileImage: function (provider, imgURL) {
-            var userData = window.localStorage['user'];
-            var parsed = angular.fromJson(userData);
+            var userData = $localStorage.user;
             if (provider == 'facebook') {
-                parsed.facebookPic = imgURL;
-                window.localStorage['user'] = angular.toJson(parsed);
+                userData.facebookPic = imgURL;
             }
             if (provider == 'google') {
-                parsed.googlePic = imgURL;
-                window.localStorage['user'] = angular.toJson(parsed);
+                userData.googlePic = imgURL;
             }
             if (provider == 'twitter') {
-                parsed.twitterPic = imgURL;
-                window.localStorage['user'] = angular.toJson(parsed);
+                userData.twitterPic = imgURL;
             }
 
         }
@@ -146,11 +143,11 @@ angular.module('comrade.services', [])
 })
 
 
-.factory('UserSession', function UserSession() {
+.factory('UserSession', function UserSession($localStorage) {
     //TODO for developmement its okay to use standar localStorage but for product we want to use 'angular-local-storage' git repo by 'grevory'
     return {
         all: function() {
-            var userData = window.localStorage['user'];
+            var userData = $localStorage.user;
             console.log(userData);
             if(userData) {
                 return angular.fromJson(userData);
