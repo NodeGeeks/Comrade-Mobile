@@ -20,6 +20,7 @@
     <script src="lib/ngCordova/dist/ng-cordova.js"></script>
     <script src="lib/ngstorage/ngStorage.js"></script>
     <script src="lib/angular-messages/angular-messages.js"></script>
+    <script src="lib/angular-growl-notifications/dist/growl-notifications.js"></script>
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
@@ -36,7 +37,7 @@
         });
     </script>
   </head>
-  <body ng-app="comrade" animation="slide-left-right">
+  <body ng-app="comrade" animation="slide-left-right" class="platform-ios platform-cordova platform-webview">
     <!-- 
       The nav bar that will be updated as we navigate between views.
     -->

@@ -172,6 +172,13 @@ angular.module('comrade.controllers', [])
     $scope.hasGoogle = $scope.$userStorage.googleID ? true : false;
     var baseURL = "http://192.168.1.127:1337";
     //TODO toggle switch for switching on or off different social accounts.
+    $http({method: 'POST', url: 'http://localhost:1337/comrades/pendingComradesRequests', data: {accessToken: $scope.$userStorage.accessToken, id: $scope.$userStorage.id}}).
+        success(function(data, status, headers, config) {
+            console.log(data);
+        }).
+        error(function(data, status, headers, config) {
+            console.log(data);
+        });
     $scope.takePicture = function() {
         var options = {
             quality : 75,
@@ -352,8 +359,8 @@ angular.module('comrade.controllers', [])
 .controller('SettingsController', function ($scope) {
 })
 
-.controller('ComradesController', function($scope, Comrades, SocialAccounts, UserSession, $state) {
-    $scope.UserData = UserSession.all();
+.controller('ComradesController', function($scope, Comrades, SocialAccounts, $localStorage, $http) {
+    $scope.UserData = $localStorage.user;
     $scope.hasFacebook = $scope.UserData.facebookID ? true : false;
     $scope.hasTwitter = $scope.UserData.twitterID ? true : false;
     $scope.hasGoogle = $scope.UserData.googleID ? true : false;
@@ -366,6 +373,17 @@ angular.module('comrade.controllers', [])
                 return true;
             }
         }
+    };
+
+    $scope.sendComradesRequest = function(val) {
+        $scope.val;
+        $http({method: 'POST', url: 'http://localhost:1337/comrades/sendComradesRequest', data: {value: $scope.val, accessToken: $scope.UserData.accessToken, id: $scope.UserData.id}}).
+            success(function(data, status, headers, config) {
+                alert(data);
+            }).
+            error(function(data, status, headers, config) {
+                alert(data);
+            });
     };
 
     $scope.isSocialComrade = function (id) {
@@ -388,6 +406,13 @@ angular.module('comrade.controllers', [])
 
     };
     $scope.comrades = Comrades.all();
+    $http({method: 'POST', url: 'http://localhost:1337/comrades/comrades', data: {value: $scope.val, accessToken: $scope.UserData.accessToken, id: $scope.UserData.id}}).
+        success(function(data, status, headers, config) {
+            //console.log(data);
+        }).
+        error(function(data, status, headers, config) {
+            //console.log(data);
+        });
     $scope.predicate = '+name';
 })
 

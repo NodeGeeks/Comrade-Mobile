@@ -27,6 +27,7 @@ angular.module('comrade.services', [])
     return {
         all: function() {
           comradess = angular.fromJson(window.localStorage['comrades']);
+
           return comradess;
         },
         get: function(id) {

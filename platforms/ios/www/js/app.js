@@ -1,4 +1,4 @@
-angular.module('comrade', ['ionic', 'comrade.controllers', 'comrade.services', 'ngCordova', 'ngStorage', 'ngMessages'])
+angular.module('comrade', ['ionic', 'comrade.controllers', 'comrade.services', 'ngCordova', 'ngStorage', 'ngMessages', 'growlNotifications'])
 
 .run(function($ionicPlatform, $cordovaStatusbar) {
 

@@ -1,25 +1,22 @@
 /* Empty. Add your own CSS if you like */
-
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-MedCond.ttf);
+}
+body {
+    font-family: "HelveticaNeue" !important;
+}
 .comradeGradient, .tabs {
-    background-color: #249191;
+    background-color: #339999;
     background-position: center center;
     background-repeat: no-repeat;
-
-    /* Safari 4-5, Chrome 1-9 */
-    /* Can't specify a percentage size? Laaaaaame. */
-    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#249191), to(#084F4F));
-
-    /* Safari 5.1+, Chrome 10+ */
-    background: -webkit-radial-gradient(circle, #249191, #084F4F);
-
-    /* Firefox 3.6+ */
-    background: -moz-radial-gradient(circle, #249191, #084F4F);
-
-    /* IE 10 */
-    background: -ms-radial-gradient(circle, #249191, #084F4F);
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#339999), to(#006666));
+    background: -webkit-radial-gradient(circle, #339999, #006666);
+    background: -moz-radial-gradient(circle, #339999, #006666);
+    background: -ms-radial-gradient(circle, #339999, #006666);
 }
 .bar {
-    background-color: #249191;
+    background-color: #339999;
     border:  none;
 }
 
@@ -116,7 +113,8 @@
 
 .main-logo img{
     margin-top: 20px;
-    max-width: 120px;
+    width: 80%;
+    max-width: 320px;
 
 }
 
@@ -143,7 +141,6 @@
 .social-login-text {
     color: white;
     font-size: 22px;
-    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
 }
 
 .comrade-login-button, .comrade-signup-button {
@@ -168,7 +165,6 @@
 .text-white {
     color: white;
     font-size: 20px;
-    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
 }
 .text-white a {
     color: white;
