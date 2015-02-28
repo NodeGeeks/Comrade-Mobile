@@ -125,11 +125,7 @@ body {
 }
 
 .social-login-bar .each {
-    width: 45px;
-    height: 45px;
     margin: auto;
-    border-radius: 100%;
-    border: 1px solid white;
 }
 
 .social-login-bar i {
