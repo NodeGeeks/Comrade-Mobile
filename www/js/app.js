@@ -6,7 +6,7 @@ angular.module('comrade', ['ionic', 'comrade.controllers', 'comrade.services', '
     if(window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
-    if ($ionicPlatform.isIOS()) {
+    if ($ionicPlatform.is('ios')) {
       var isVisible = $cordovaStatusbar.isVisible();
       if (isVisible) $cordovaStatusbar.styleColor('cyan');
     }
