@@ -4,11 +4,11 @@ angular.module('comrade.controllers', [])
 .controller('MainController', function($scope, $window, $http, $ionicLoading, $state, $location, SocialAccounts, $localStorage) {
     $scope.$hasHeader=false;
     $scope.$userStorage = $localStorage.user;
-    var baseURL = "http://192.168.1.127:1337";
+    var baseURL = "http://localhost:1337";
 
     if ($scope.$userStorage && $scope.$userStorage.accessToken !== angular.undefined) {
 
-        $http({method: 'POST', url: 'http://192.168.1.127:1337/users/checkAuthToken', data: {id: $scope.$userStorage.id, token: $scope.$userStorage.accessToken}}).
+        $http({method: 'POST', url: 'http://localhost:1337/users/checkAuthToken', data: {id: $scope.$userStorage.id, token: $scope.$userStorage.accessToken}}).
             success(function(data, status, headers, config) {
                 //alert(data);
                 if (data === 'false') {
@@ -114,7 +114,7 @@ angular.module('comrade.controllers', [])
                 });
                 var firstName = r.first_name;
                 var lastName = r.last_name;
-                var baseURL = "http://192.168.1.127:1337";
+                var baseURL = "http://localhost:1337";
                 $http({method: 'POST', url: baseURL + '/users/loginSocialAccount', data: {provider: auth.network, socialID: r.id, firstName: firstName, lastName: lastName}}).
                     success(function(data, status, headers, config) {
                         retrieveStoreAndGo(data);
@@ -132,7 +132,7 @@ angular.module('comrade.controllers', [])
 })
 
 .controller('SignupController', function($scope, $http, $ionicLoading, $location, UserSession, $localStorage) {
-    var baseURL = "http://192.168.1.127:1337";
+    var baseURL = "http://localhost:1337";
 
     $scope.signup = function(signupData) {
         $ionicLoading.show({
@@ -155,7 +155,7 @@ angular.module('comrade.controllers', [])
     if ($scope.$userStorage) {
         if($scope.$userStorage.accessToken !== angular.undefined) {
 
-        $http({method: 'POST', url: 'http://192.168.1.127:1337/users/checkAuthToken', data: {id: $scope.$userStorage.id, token: $scope.$userStorage.accessToken}}).
+        $http({method: 'POST', url: 'http://localhost:1337/users/checkAuthToken', data: {id: $scope.$userStorage.id, token: $scope.$userStorage.accessToken}}).
             success(function (data, status, headers, config) {
                 if (data === 'false') {
                     $location.path('/main');
@@ -170,7 +170,7 @@ angular.module('comrade.controllers', [])
     $scope.isComrade = $scope.$userStorage.comradeUsername ? true : false;
     $scope.hasTwitter = $scope.$userStorage.twitterID ? true : false;
     $scope.hasGoogle = $scope.$userStorage.googleID ? true : false;
-    var baseURL = "http://192.168.1.127:1337";
+    var baseURL = "http://localhost:1337";
     //TODO toggle switch for switching on or off different social accounts.
     $http({method: 'POST', url: 'http://localhost:1337/comrades/pendingComradesRequests', data: {accessToken: $scope.$userStorage.accessToken, id: $scope.$userStorage.id}}).
         success(function(data, status, headers, config) {
@@ -258,7 +258,7 @@ angular.module('comrade.controllers', [])
         }
         hello.login( provider, options, function(auth){
             hello(provider).api( '/me' ).success(function(r){
-                var baseURL = "http://192.168.1.127:1337";
+                var baseURL = "http://localhost:1337";
                 $http({method: 'POST', url: baseURL + '/users/linkSocialAccount', data: {provider: auth.network, id: $scope.$userStorage.id , socialID: r.id, token: $scope.$userStorage.accessToken}}).
                     success(function(data, status, headers, config) {
                         $localStorage.user = data[0];
@@ -472,7 +472,7 @@ angular.module('comrade.controllers', [])
     }
     if ($scope.$storage && $scope.$storage.user.accessToken !== angular.undefined) {
 
-        $http({method: 'POST', url: 'http://192.168.1.127:1337/users/checkAuthToken', data: {id: $scope.$storage.user.id, token: $scope.$storage.user.accessToken}}).
+        $http({method: 'POST', url: 'http://localhost:1337/users/checkAuthToken', data: {id: $scope.$storage.user.id, token: $scope.$storage.user.accessToken}}).
             success(function(data, status, headers, config) {
                 if (data === 'false') {
                     $location.path('/main');

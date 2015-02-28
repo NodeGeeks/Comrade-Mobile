@@ -2,21 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d664f946-68b0-480c-86f2-608c611d87b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/nodegeeks/comrade/CordovaApp.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Comrade.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Comrade.xcodeproj/project.xcworkspace/xcshareddata/Comrade.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Comrade.xcodeproj/project.xcworkspace/xcuserdata/aaronrussell.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Comrade.xcodeproj/xcuserdata/aaronrussell.xcuserdatad/xcschemes/Comrade.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Comrade.xcodeproj/xcuserdata/aaronrussell.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Resources/de.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Resources/en.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Resources/es.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Resources/se.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVShared.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/aaronrussell.xcuserdatad/xcschemes/CordovaLib.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/aaronrussell.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/cordova/console.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/sim.applescript" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/com.ionic.keyboard/.fetch.json" afterPath="$PROJECT_DIR$/plugins/com.ionic.keyboard/.fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.console/.fetch.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.console/.fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/.fetch.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/.fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Classes/AppDelegate.m" afterPath="$PROJECT_DIR$/platforms/ios/Comrade/Classes/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVAvailability.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVAvailability.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Plugins/org.apache.cordova.device/CDVDevice.m" afterPath="$PROJECT_DIR$/platforms/ios/Comrade/Plugins/org.apache.cordova.device/CDVDevice.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/ios/CDVDevice.m" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/ios/CDVDevice.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Plugins/org.apache.cordova.console/CDVLogger.m" afterPath="$PROJECT_DIR$/platforms/ios/Comrade/Plugins/org.apache.cordova.console/CDVLogger.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.console/src/ios/CDVLogger.m" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.console/src/ios/CDVLogger.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPlugin.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPlugin.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVShared.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVShared.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWhitelist.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWhitelist.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Comrade-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/Comrade/Comrade-Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/comrades.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/comrades.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Comrade-Mobile.iml" afterPath="$PROJECT_DIR$/Comrade-Mobile.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Comrade-Prefix.pch" afterPath="$PROJECT_DIR$/platforms/ios/Comrade/Comrade-Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/wp/Device.cs" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/wp/Device.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/android/Device.java" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/android/Device.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/firefoxos/DeviceProxy.js" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/firefoxos/DeviceProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/windows8/DeviceProxy.js" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/windows8/DeviceProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/com.ionic.keyboard/src/android/IonicKeyboard.java" afterPath="$PROJECT_DIR$/plugins/com.ionic.keyboard/src/android/IonicKeyboard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Plugins/com.ionic.keyboard/IonicKeyboard.m" afterPath="$PROJECT_DIR$/platforms/ios/Comrade/Plugins/com.ionic.keyboard/IonicKeyboard.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/com.ionic.keyboard/src/ios/IonicKeyboard.m" afterPath="$PROJECT_DIR$/plugins/com.ionic.keyboard/src/ios/IonicKeyboard.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/Classes/MainViewController.m" afterPath="$PROJECT_DIR$/platforms/ios/Comrade/Classes/MainViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/com.ionic.keyboard/README.md" afterPath="$PROJECT_DIR$/plugins/com.ionic.keyboard/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.console/RELEASENOTES.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.console/RELEASENOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/RELEASENOTES.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/RELEASENOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/build.xcconfig" afterPath="$PROJECT_DIR$/platforms/ios/cordova/build.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/build" afterPath="$PROJECT_DIR$/platforms/ios/cordova/build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Comrade/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/Comrade/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngCordova/src/plugins/ga.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngCordova/src/plugins/ga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/hello.all.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/hello.all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/main.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/lib/ngCordova/src/plugins/push.js" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/ngCordova/src/plugins/push.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/services.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.device/www/device.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.device/www/device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/www/device.js" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/www/device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/emulate" afterPath="$PROJECT_DIR$/platforms/ios/cordova/emulate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/blackberry10/index.js" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/blackberry10/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.console/doc/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.console/doc/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/de/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/de/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/es/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/es/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/fr/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/fr/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/it/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/it/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/ja/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/ja/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/ko/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/ko/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/pl/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/pl/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/zh/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/doc/zh/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/install-device" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/install-device" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/install-emulator" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/install-emulator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/com.ionic.keyboard/www/keyboard.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/com.ionic.keyboard/www/keyboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/com.ionic.keyboard/www/keyboard.js" afterPath="$PROJECT_DIR$/plugins/com.ionic.keyboard/www/keyboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-devices" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-devices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-emulator-images" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-emulator-images" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-started-emulators" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-started-emulators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/loggedIn.html" afterPath="$PROJECT_DIR$/www/templates/loggedIn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/com.ionic.keyboard/package.json" afterPath="$PROJECT_DIR$/plugins/com.ionic.keyboard/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.console/package.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.console/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/package.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/com.ionic.keyboard/plugin.xml" afterPath="$PROJECT_DIR$/plugins/com.ionic.keyboard/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.console/plugin.xml" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.console/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/plugin.xml" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Comrade.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/Comrade.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/run" afterPath="$PROJECT_DIR$/platforms/ios/cordova/run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/start-emulator" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/start-emulator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/version" afterPath="$PROJECT_DIR$/platforms/ios/cordova/version" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Comrade-Mobile.iws" />
@@ -43,11 +133,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07751938" vertical-offset="90" max-vertical-offset="855">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="855">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="2070">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34084508" vertical-offset="1439" max-vertical-offset="7380">
+              <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="29.375" vertical-offset="705" max-vertical-offset="1140">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="705">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25" vertical-offset="15" max-vertical-offset="540">
+              <caret line="19" column="106" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="106" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loggedIn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/loggedIn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.125" vertical-offset="30" max-vertical-offset="450">
+              <caret line="15" column="119" selection-start-line="15" selection-start-column="119" selection-end-line="15" selection-end-column="119" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4410">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,6 +238,10 @@
         <option value="$PROJECT_DIR$/ionic.project" />
         <option value="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" />
         <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/templates/loggedIn.html" />
       </list>
     </option>
   </component>
@@ -106,6 +280,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,113 +323,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comrade-Mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comrade-Mobile" />
+              <option name="myItemId" value="www" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comrade-Mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comrade-Mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comrade-Mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comrade-Mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodegeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comrade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comrade-Mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comrade-Mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,6 +346,7 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -373,6 +452,11 @@
       <TestRunner />
       <method />
     </configuration>
+    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+      <setting name="path" value="" />
+      <setting name="shellParams" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <envs />
       <method />
@@ -446,7 +530,10 @@
       <option name="number" value="Default" />
       <updated>1424989250438</updated>
       <workItem from="1424989254117" duration="2467000" />
-      <workItem from="1425052671581" duration="5766000" />
+      <workItem from="1425052671581" duration="8906000" />
+      <workItem from="1425101112365" duration="1371000" />
+      <workItem from="1425104696437" duration="346000" />
+      <workItem from="1425110153933" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="Remove and re added Android platform">
       <created>1425064905696</created>
@@ -454,11 +541,17 @@
       <option name="project" value="LOCAL" />
       <updated>1425064905696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove and re added Android platform">
+      <created>1425093193937</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1425093193937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8233000" />
+    <option name="totallyTimeSpent" value="16376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -477,20 +570,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -519,6 +613,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="453" max-vertical-offset="855">
           <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding />
@@ -529,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="600">
           <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3649635" vertical-offset="0" max-vertical-offset="4470">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,15 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2635659" vertical-offset="213" max-vertical-offset="600">
           <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2919708" vertical-offset="0" max-vertical-offset="465">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18248175" vertical-offset="0" max-vertical-offset="411">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15503876" vertical-offset="0" max-vertical-offset="387">
           <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -585,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="24585">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="134745">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58290154" vertical-offset="0" max-vertical-offset="386">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5813953" vertical-offset="0" max-vertical-offset="387">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,14 +730,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7518249" vertical-offset="0" max-vertical-offset="840">
           <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/completion/bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.20437956" vertical-offset="84" max-vertical-offset="495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/src/com/nodegeeks/comrade/CordovaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.38860103" vertical-offset="150" max-vertical-offset="600">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07751938" vertical-offset="90" max-vertical-offset="855">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="855">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4410">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="2070">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="29.375" vertical-offset="705" max-vertical-offset="1140">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/loggedIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="30" max-vertical-offset="450">
+          <caret line="15" column="119" selection-start-line="15" selection-start-column="119" selection-end-line="15" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="15" max-vertical-offset="540">
+          <caret line="19" column="106" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34084508" vertical-offset="1439" max-vertical-offset="7380">
+          <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
           <folding />
         </state>
       </provider>
