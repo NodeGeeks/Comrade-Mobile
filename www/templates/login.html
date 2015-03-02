@@ -20,7 +20,7 @@
             <button type="submit" class="button button-block button-positive sm-margin-top">login</button>
         </form>
         <div class="row">
-            <div class="col text-left"><input type="checkbox">remember me</div>
+            <div class="col text-left"><input ng-change="rememberMe()" ng-model="isRemembered" type="checkbox">remember me</div>
             <div class="col text-right"><a ui-sref="signup">signup</a></div>
         </div>
         <div class="row">
